@@ -23,6 +23,7 @@ PLATFORMS
 DEPENDENCIES
   geolocater
   json
+  x86-mingw32
   sinatra
 
 BUNDLED WITH

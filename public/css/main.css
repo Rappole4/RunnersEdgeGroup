@@ -1,5 +1,7 @@
 /*Style Sheet*/
-
+html{
+	z-index: 0;
+}
 
 .image {
 	background-image: url(../img/Muddy_Shoes.png);
@@ -9,30 +11,32 @@
 	border: 1px solid black;
 	position: relative;
 	height: 450px;
-	width: 114.7%;
-	margin: 0px 0px 0px -100px;
-	z-index: 0;
+	width: 99%;
+	margin: 0px 0px 0px 0px;
 	/*padding: 0px 0px 0px 0px;*/
 }
-hr {
-	top: 1000px;
-}
+
 .column {
 	border: 1px solid black;
 	text-align: center;
-	height: 300px;
-	width: 300px;
-	padding: 0px 20px 0px 20px;
+	height: 220px;
+	width: 200px;
+	top: 5px;
+	left: 120px;
 }
+#sock {
+	background-image: url(../img/sock.png);
+}
+
 #quote_start {
 	color: white;
 	position: absolute;
-	top: 100px;
-	left: 20px;
+	top: 38px;
+	left: 42px;
 }
 #quote_end {
 	color: white;
 	position: absolute;
 	right: 20px;
-	bottom: 120px;
+	bottom: 40px;
 }

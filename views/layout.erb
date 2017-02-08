@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+    </head>
+    <body>
+        <nav>
+            <img src="https://assets.entrepreneur.com/content/16x9/822/20160226192037-succeed-adventure-sunrise-successful-man-top-mountain.jpeg">
+            <ul>
+            <% settings.menu.each do |item| %>
+            <li><a href="<%= item[:route] %>"><%=item[:title] %></a></li>
+            <% end %>
+            </ul>
+        </nav>
+            <%= yield %>
+        <footer>
+            <h4>Back to top</h4>
+            <label>If you'd like to join our rewards program, to get great deals on all of our products. Please submit an email address.</label><br><input>
+            <input type="submit" value="Submit"/>
+        </footer>
+    </body>
+</html>

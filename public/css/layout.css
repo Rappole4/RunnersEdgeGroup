@@ -1,0 +1,22 @@
+ul {
+	margin: 0px;
+	background-color:rgba(230,230,230,.8);
+	padding: 0px 80px;
+	text-align:right;
+	font-size:38px;
+	list-style:none;
+}
+li {
+	display:inline-block;
+	padding:0px 30px;
+}
+img {
+	width:150px;
+	height:120px;
+	display:inline-block;
+	float:left;
+}
+footer {
+	background-color:rgba(0,0,0,.8);
+	align-items:baseline;
+}

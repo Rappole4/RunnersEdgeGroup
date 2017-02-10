@@ -1,14 +1,14 @@
 .linkul {
 	margin: 0px;
 	background-color:rgba(230,230,230,.8);
-	padding: 0px 50px 20px 0px;
+	padding: 0px 5px 5px 0px;
 	text-align:right;
-	font-size:38px;
+	font-size:30px;
 	list-style:none;
 }
 .headerlinks {
 	display:inline-block;
-	padding:0px 30px;
+	padding:0px 20px;
 }
 .products {
 	padding:0px 90px;
@@ -18,8 +18,8 @@
 	margin:5px;
 }
 .imagebuy {
-	height:220px;
-	width:220px;
+	height:170px;
+	width:170px;
 }
 .images {
 	height:30px;
@@ -32,13 +32,13 @@ input {
 	padding:0px 20px;
 }
 #top {
+	height:75px;
 	display:inline-block;
 	float:left;
 	background-color:rgba(230,230,230,.8);
 }
 #footer {
 	background-color:rgba(100,100,100,.8);
-	border:4px solid black;
 	color:white;
 	height:250px;
 }

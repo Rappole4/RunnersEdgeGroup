@@ -1,6 +1,63 @@
+
 /*Style Sheet*/
 html{
 	z-index: 0;
+}
+
+=======
+.linkul {
+	margin: 0px;
+	background-color:rgba(230,230,230,.8);
+	padding: 0px 5px 5px 0px;
+	text-align:right;
+	font-size:30px;
+	list-style:none;
+}
+.headerlinks {
+	display:inline-block;
+	padding:0px 20px;
+}
+.products {
+	padding:0px 90px;
+	margin:5px;
+}
+.productbuy {;
+	margin:5px;
+}
+.imagebuy {
+	height:170px;
+	width:170px;
+}
+.images {
+	height:30px;
+	width:30px;
+}
+.addercart {
+	display:none;
+}
+input {
+	padding:0px 20px;
+}
+#top {
+	height:75px;
+	display:inline-block;
+	float:left;
+	background-color:rgba(230,230,230,.8);
+}
+#footer {
+	background-color:rgba(100,100,100,.8);
+	color:white;
+	height:250px;
+}
+.submit {
+	color:black;
+}
+.up {
+	margin:0px 0px 0px 3px;
+	color:yellow;
+}
+.left {
+	margin:0px 0px 0px 80px;
 }
 
 .image {
@@ -15,6 +72,17 @@ html{
 	margin: 0px 0px 0px 0px;
 	/*padding: 0px 0px 0px 0px;*/
 }
+/*
+=======
+	width: 114.7%;
+	margin: 0px 0px 0px -100px;
+	z-index: 0;*/
+}
+
+#productphotos {
+	padding: 0px 10px 0px 10px;
+	margin: 0px 0px 50px 175px;
+}
 
 .column {
 	border: 1px solid black;
@@ -26,6 +94,15 @@ html{
 }
 #sock {
 	background-image: url(../img/sock.png);
+	background-repeat: no-repeat;
+}
+#shoe {
+	background-image: url(../img/product4.jpg);
+	background-repeat: no-repeat;
+}
+#bag {
+	background-image: url(../img/product5.jpg);
+	background-repeat: no-repeat;
 }
 
 #quote_start {
@@ -39,4 +116,11 @@ html{
 	position: absolute;
 	right: 20px;
 	bottom: 40px;
+}
+
+#lorem {
+	font-size: 1.5em;
+	width: 300px;
+	text-align: center;
+	margin: 0px 0px 0px 350px;
 }

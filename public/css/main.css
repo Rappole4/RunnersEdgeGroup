@@ -31,8 +31,15 @@ html{
 	padding:0px 90px;
 	margin:5px;
 }
-.productbuy {;
+.imagebuy {;
 	margin:5px;
+	transition-property: width height background-color;
+	transition-duration: 2s;
+	transition-delay: 0s;
+}
+.imagebuy:hover{
+	width:300px;
+	height:300px;
 }
 .imagebuy {
 	height:170px;

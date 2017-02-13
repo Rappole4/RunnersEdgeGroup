@@ -7,6 +7,24 @@ var incart6 = document.getElementById('incart6');
 var incart7 = document.getElementById('incart7');
 var incart8 = document.getElementById('incart8');
 var incart9 = document.getElementById('incart9');
+var img = new Array();
+img[0] = new Image();
+img[0].src = '../img/Muddy_Shoes.png';
+
+img[1] = new Image();
+img[1].src = '../img/Forest_Trail.png';
+
+img[2] = new Image();
+img[2].src = '../img/Forest_Trail_2.png';
+
+img[3] = new Image();
+img[3].src = '../img/Misty_Trail.png';
+
+img[4] = new Image();
+img[4].src = '../img/Bridge_Trail.png';
+
+img[5] = new Image();
+img[5].src = '../img/Running_Trail_2.png';
 
 document.addEventListener("DOMContentLoaded",function(event){
     add1.onclick = function(){
@@ -117,6 +135,15 @@ document.addEventListener("DOMContentLoaded",function(event){
     console.log(parseInt(Cookies.get('product9')));
     incart9.innerText = " Currently in cart:" + parseInt(Cookies.get('product9'));
     };
+
+    //  Image Cycle
+
+    function cycleImg(){
+    for (i = 0; i < img.length; i++) {
+        img[i];
+    }
+    document.getElementById("#gallery").innerHTML = img.src;
+};
 $(document).ready(function(){
     $("#add1").click();
     $("#sub1s").click();
@@ -138,3 +165,31 @@ $(document).ready(function(){
     $("#sub9s").click();
     });
 });
+
+
+function cycleImg(){
+    for (i = 0; i < img.length; i++) {
+        img[i];
+    }
+    document.getElementById("gallery").innerHTML = img.src;
+};
+
+var img = new Array();
+img[0] = new Image();
+img[0].src = '../img/Muddy_Shoes.png';
+
+img[1] = new Image();
+img[1].src = '../img/Forest_Trail.png';
+
+img[2] = new Image();
+img[2].src = '../img/Forest_Trail_2.png';
+
+img[3] = new Image();
+img[3].src = '../img/Misty_Trail.png';
+
+img[4] = new Image();
+img[4].src = '../img/Bridge_Trail.png';
+
+img[5] = new Image();
+img[5].src = '../img/Running_Trail_2.png';
+
